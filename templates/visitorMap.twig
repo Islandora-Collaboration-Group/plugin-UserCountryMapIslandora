@@ -20,11 +20,10 @@
     </div>
     <div class="mapWidgetStatus">
         {% if noData %}
-            <div class="pk-emptyDataTable">{{ 'CoreHome_ThereIsNoDataForThisReport'|translate }}</div>
+            <div class="pk-emptyDataTable">{{ 'No visits for this period' }}</div>
         {% else %}
             <span class="loadingPiwik">
                 <img src="plugins/Morpheus/images/loading-blue.gif" />
-                {{ 'General_LoadingData'|translate }}...
             </span>
         {% endif %}
     </div>

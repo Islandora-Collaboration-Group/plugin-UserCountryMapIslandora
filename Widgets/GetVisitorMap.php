@@ -16,7 +16,7 @@ class GetVisitorMap extends \Piwik\Widget\Widget
     {
         $config->setCategoryId('General_Visitors');
         $config->setSubcategoryId('UserCountry_SubmenuLocations');
-        $config->setName('UserCountryMapIslandora_VisitorMap');
+        $config->setName('UserCountryMapIslandora_IslandoraVisitorMap');
         $config->setAction('visitorMap');
         $config->setOrder(1);
     }
