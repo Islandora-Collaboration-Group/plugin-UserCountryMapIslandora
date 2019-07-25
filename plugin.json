@@ -1,0 +1,20 @@
+{
+    "name": "UserCountryMapIslandora",
+    "version": "1.0.0",
+    "description": "Custom Map with no Popups, 90% based on UserCountryMap",
+    "keywords": ["Map", "Embed"],
+    "license": "GPL v3+",
+    "homepage": "http://piwik.org",
+    "require": {
+        "piwik": ">=3.0.0-b1,<4.0.0-b1"
+    },
+    "support": {
+        "source": "https://github.com/diegopino/plugin-UserCountryMapIslandora"
+    },
+    "authors": [
+        {
+            "name": "Diego Pino",
+            "email": "dpino@metro.org",
+        }
+    ]
+}

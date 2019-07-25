@@ -1,0 +1,10 @@
+{
+    "UserCountryMapIslandora": {
+        "Cities": "ערים",
+        "Countries": "מדינות",
+        "map": "מפה",
+        "MinutesAgo": "לפני %s דקות",
+        "VisitorMap": "מפת מבקרים",
+        "WorldWide": "כלל-עולמי"
+    }
+}
