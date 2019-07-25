@@ -21,12 +21,12 @@
 .UserCountryMapIslandora svg .context-clickable {
     cursor: pointer;
     stroke: #BBBBBB;
-    fill: #F2F1ED;
+    fill: #e0f2e4;
     stroke-width: 0.5px;
 }
 
 .UserCountryMapIslandora svg .context-clickable:hover {
-    fill: #E4E2D7;
+    fill: #cbe4e4;
 }
 
 .UserCountryMapIslandora svg .regionBG {
@@ -43,7 +43,7 @@
 
 .UserCountryMapIslandora svg .regionBG-3 {
     stroke: #ccc;
-    fill: #F2F1ED;
+    fill: #e6f2f0;
     stroke-width: 1px;
 }
 
