@@ -127,7 +127,7 @@ class Controller extends \Piwik\Plugin\Controller
         // Reuse Original Plugins data
         $config['svgBasePath'] = 'plugins/UserCountryMap/svg/';
         // Allow our own CSS override
-        $config['mapCssPath'] = 'plugins/plugin-UserCountryMapIslandora/stylesheets/map.css';
+        $config['mapCssPath'] = 'plugins/UserCountryMapIslandora/stylesheets/map.css';
         $view->config = json_encode($config);
         $view->noData = empty($config['visitsSummary']['nb_visits']);
 
