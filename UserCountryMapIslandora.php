@@ -10,11 +10,11 @@ namespace Piwik\Plugins\UserCountryMapIslandora;
 
 use Piwik\FrontController;
 use Piwik\Piwik;
-use Piwik\Plugins\UserCountryMap
+use Piwik\Plugins\UserCountryMap;
 
 /**
  */
-class UserCountryMap extends Piwik\Plugins\UserCountryMap
+class UserCountryMapIslandora extends UserCountryMap
 {
     public function postLoad()
     {
