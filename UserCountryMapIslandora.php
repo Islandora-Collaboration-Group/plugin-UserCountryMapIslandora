@@ -8,9 +8,9 @@
  */
 namespace Piwik\Plugins\UserCountryMapIslandora;
 
-use Piwik\FrontController;
-use Piwik\Piwik;
-use Piwik\Plugins\UserCountryMap;
+use \Piwik\FrontController;
+use \Piwik\Piwik;
+use \Piwik\Plugins\UserCountryMap;
 
 /**
  */
