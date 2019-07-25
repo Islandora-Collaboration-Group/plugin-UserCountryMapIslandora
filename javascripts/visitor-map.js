@@ -630,12 +630,12 @@
                 $$('.UserCountryMap-black').show();
                 $$('.UserCountryMap-black').css('opacity', 0);
                 $$('.UserCountryMap-black').animate({ opacity: 0.5 }, 400);
-                $$('.UserCountryMap .loadingPiwik').show();
+                $$('.UserCountryMapIslandora .loadingPiwik').show();
             }
 
             function loadingComplete() {
                 $$('.UserCountryMap-black').hide();
-                $$('.UserCountryMap .loadingPiwik').hide();
+                $$('.UserCountryMapIslandora .loadingPiwik').hide();
             }
 
             /*
@@ -1159,7 +1159,7 @@
                         // map stylesheets are loaded
 
                         // hide loading indicator
-                        $$('.UserCountryMap .loadingPiwik').hide();
+                        $$('.UserCountryMapIslandora .loadingPiwik').hide();
                         $('.mapWidgetStatus').height(0);
 
                         // start with default view (or saved state??)
