@@ -14,7 +14,7 @@ use \Piwik\Plugins\UserCountryMap;
 
 /**
  */
-class UserCountryMapIslandora extends UserCountryMap
+class UserCountryMapIslandora extends \Piwik\Plugin
 {
     public function postLoad()
     {
